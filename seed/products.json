@@ -1,0 +1,57 @@
+[
+  {
+    "type": "header",
+    "version": "5.0.2",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+  },
+  { "type": "database", "name": "shopping_cart" },
+  {
+    "type": "table",
+    "name": "products",
+    "database": "shopping_cart",
+    "data": [
+      {
+        "productId": "1",
+        "productImagePath": "https://salt.tikicdn.com/cache/280x280/ts/product/3b/3a/31/3e59cf4b36e07b40cae875e3e7be9142.jpg",
+        "productName": "iPad 10.2 Inch WiFi 32GB New 2019 - Hàng Chính Hãng",
+        "categoryId": "5",
+        "productPrice": "8990000"
+      },
+      {
+        "productId": "2",
+        "productImagePath": "https://salt.tikicdn.com/cache/280x392/ts/product/40/5b/da/8fb3dfe89367fcd20ad82223df811d2d.jpg",
+        "productName": "Áo thun nam",
+        "categoryId": "2",
+        "productPrice": "44000"
+      },
+      {
+        "productId": "3",
+        "productImagePath": "https://salt.tikicdn.com/cache/280x280/ts/product/15/be/3f/5eb8c4818ec6f74c96441cbd32f8c1bd.jpg",
+        "productName": "Cây Lau Nhà Dạng Đứng Lock&Lock ETM461 (26 x 12.8 cm) - Trắng Phối Màu",
+        "categoryId": "3",
+        "productPrice": "267000"
+      },
+      {
+        "productId": "4",
+        "productImagePath": "https://salt.tikicdn.com/cache/280x280/ts/product/b2/56/d3/17262447faaef713be60d6b25ec0551d.jpg",
+        "productName": "Vui Vẻ Không Quạu Nha",
+        "categoryId": "1",
+        "productPrice": "49510"
+      },
+      {
+        "productId": "5",
+        "productImagePath": "https://salt.tikicdn.com/cache/280x280/ts/product/1b/50/42/3a50198e45f02ab076be0fc114fd3746.jpg",
+        "productName": "Máy Lạnh Casper SC-09TL22 (1.0HP) - Hàng Chính Hãng",
+        "categoryId": "4",
+        "productPrice": "5865000"
+      },
+      {
+        "productId": "6",
+        "productImagePath": "https://salt.tikicdn.com/cache/280x280/ts/product/ab/11/83/faeea4f22fdc230a07e517bf9fcd248d.jpg",
+        "productName": "Điện Thoại Samsung Galaxy Note 10 Lite (128GB/8GB) - Hàng Chính Hãng - Đã Kích Hoạt Bảo Hành Điện Tử",
+        "categoryId": "5",
+        "productPrice": "9590000"
+      }
+    ]
+  }
+]

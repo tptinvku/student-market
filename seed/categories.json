@@ -1,0 +1,40 @@
+[
+  {
+    "type": "header",
+    "version": "5.0.2",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+  },
+  { "type": "database", "name": "shopping_cart" },
+  {
+    "type": "table",
+    "name": "categories",
+    "database": "shopping_cart",
+    "data": [
+      {
+        "categoryId": "1",
+        "imagePath": "https://salt.tikicdn.com/cache/w60/ts/category/88/a3/23/4025f0ccef53189c957bd6c2fc79cb58.png",
+        "nameCategory": "Sách"
+      },
+      {
+        "categoryId": "2",
+        "imagePath": "https://salt.tikicdn.com/cache/w60/ts/category/dd/51/92/e6bc22b5ec0d6d965a93f056b7776493.png",
+        "nameCategory": "Thời trang-phụ kiện"
+      },
+      {
+        "categoryId": "3",
+        "imagePath": "https://salt.tikicdn.com/cache/w60/ts/category/12/29/a2/7409ff03cff5c0d3d695cb19f8f15896.png",
+        "nameCategory": "Nhà cửa-đời sống"
+      },
+      {
+        "categoryId": "4",
+        "imagePath": "https://salt.tikicdn.com/cache/w60/ts/category/b3/2b/72/8e7b4b703653050ffc79efc8ee017bd0.png",
+        "nameCategory": "Điện tử-điện lạnh"
+      },
+      {
+        "categoryId": "5",
+        "imagePath": "https://salt.tikicdn.com/cache/w60/ts/category/93/27/e3/192b0ebe1d4658c51f9931bda62489b2.png",
+        "nameCategory": "Điện Thoại-Máy Tính Bảng"
+      }
+    ]
+  }
+]
