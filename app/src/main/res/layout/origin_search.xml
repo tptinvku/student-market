@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="@dimen/margin5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_hot_kw"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin5dp"
+            android:textSize="@dimen/textSize18sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/t_kh_a_hot"/>
+    </LinearLayout>
+    <include layout="@layout/hot_keywords_layout"/>
+</LinearLayout>

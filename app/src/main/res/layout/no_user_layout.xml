@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_auth"
+        android:gravity="center"
+        android:text="Vui lòng đăng nhập để thực hiện tính năng này" />
+    <Button
+        android:id="@+id/btn_auth"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin30dp"
+        android:inputType="textCapSentences"
+        android:text="@string/ng_nh_p_ng_k"
+        android:textColor="@color/white"
+        android:background="@drawable/round_corner"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#F30F0F"/>
+</RelativeLayout>

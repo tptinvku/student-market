@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black"
+        android:title="@string/lblHome" />
+    <item
+        android:id="@+id/navigation_selfSelling"
+        android:icon="@drawable/reseller_48"
+        android:title="@string/toi_ban"/>
+    <item
+        android:id="@+id/navigation_post"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_bell"
+        android:title="@string/lblNotify"/>
+    <item
+        android:id="@+id/navigation_personal"
+        android:icon="@drawable/ic_person"
+        android:title="@string/lblPersional"/>
+</menu>

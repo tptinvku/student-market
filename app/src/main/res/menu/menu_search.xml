@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <!--   <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="Tìm kiếm..."/>-->
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@drawable/ic_clear"
+        app:showAsAction="ifRoom"
+        android:title="@string/lblDelete"/>
+</menu>

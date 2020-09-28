@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/item_product_style"
+    android:orientation="horizontal">
+    android:layout_weight="1"/>
+    <RelativeLayout
+        android:id="@+id/btn_capture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+           android:layout_centerInParent="true"
+            android:src="@drawable/ic_photo_camera"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chụp tiếp"
+            android:layout_below="@+id/img"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/capture_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding4dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_image_post" />
+</LinearLayout>

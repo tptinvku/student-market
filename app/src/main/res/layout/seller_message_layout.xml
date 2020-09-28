@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#B5000000"
+    android:background="@drawable/message_round_corner"
+    android:padding="@dimen/padding10dp"
+    android:layout_marginVertical="@dimen/padding10dp"
+    android:layout_marginHorizontal="@dimen/margin5dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Xin chào \nBạn còn mặt hàng này không? "/>
+</LinearLayout>

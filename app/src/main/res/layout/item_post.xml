@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/padding10dp"
+    android:paddingHorizontal="@dimen/margin2dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/img_demo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/img_view" >
+            <ImageView
+                android:id="@+id/btn_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_favorite_border_red_32dp" />
+
+            <TextView
+                android:id="@+id/num_like"
+                android:layout_width="23dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin5dp">
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_view"
+            android:layout_gravity="center"
+            android:firstBaselineToTopHeight="0dp"
+            android:includeFontPadding="false"
+            android:inputType="textMultiLine"
+            android:maxLines="2"
+            android:text="Điện thoại OPPO Reno2 F"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="7.490.000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_access_time_black_15dp"/>
+        <TextView
+            android:id="@+id/timeStamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hôm qua"
+            android:textSize="9dp"
+            android:paddingHorizontal="@dimen/margin2dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_location_on_black_15dp"/>
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/margin2dp"
+            android:layout_gravity="center"
+            android:text="Da Nang"
+            android:textSize="9dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingVertical="@dimen/padding10dp"
+    android:background="@drawable/item_product_style">
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_demo"
+        android:layout_gravity="fill"
+        android:background="@null"
+        android:layout_weight="1"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="fill_vertical"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/padding18dp"
+            android:padding="@dimen/margin5dp">
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_view"
+                android:layout_gravity="center"
+                android:firstBaselineToTopHeight="0dp"
+                android:includeFontPadding="false"
+                android:inputType="textMultiLine"
+                android:maxLines="2"
+                android:text="Điện thoại OPPO Reno2 F"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/productPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="7.490.000"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_clear_black"
+            android:padding="@dimen/margin5dp"
+            app:layout_anchor="@id/description"
+            app:layout_anchorGravity="right|end|top" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

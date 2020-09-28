@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/capture_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/capture_dash_line"
+    android:paddingVertical="@dimen/padding20dp">
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_photo_camera" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_view"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/ch_p_nhi_u_h_nh_nh_p_b_n_ch_y_h_n"/>
+</RelativeLayout>

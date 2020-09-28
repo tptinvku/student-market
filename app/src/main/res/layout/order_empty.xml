@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding20dp">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giỏ hàng trống"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/padding10dp"
+            android:layout_above="@+id/btn_continue_buy"/>
+        <Button
+            android:id="@+id/btn_continue_buy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ti_p_t_c_mua_h_ng"
+            android:layout_marginTop="@dimen/padding10dp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_round_corner"/>
+    </RelativeLayout>
+</LinearLayout>
